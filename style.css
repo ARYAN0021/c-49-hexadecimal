@@ -1,0 +1,40 @@
+h2{
+    color:red;
+    font-family:cursive;
+}
+/** {
+    border:solid;
+    border-color:black;
+
+}*/
+.header{
+    background-color:aqua;
+    display:flex;
+    justify-content: space-between;
+    border-bottom-left-radius: 10px 20px;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-decoration:black;
+   
+    
+}
+ul{
+    list-style-position :inside;
+    outline-color :#DDBB33
+}
+.item{
+    text-align: center;
+   color:blue ;
+}
+.site-description{
+    display: flex;
+    flex-direction:column ;
+    justify-content: first baseline;
+}
